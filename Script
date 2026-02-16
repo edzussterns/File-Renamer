@@ -1,0 +1,3 @@
+$module="7.4";
+$title="Understanding Programming Language Categories";
+$i=1; Get-ChildItem "$env:USERPROFILE\Downloads\*.png" | Sort-Object CreationTime | ForEach-Object { Rename-Item $_ ("$module.$i - $title.png"); $i++ }
