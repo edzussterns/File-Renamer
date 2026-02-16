@@ -1,3 +1,0 @@
-$module="10.2"; #Change this or leave empty if not needed
-$title="Course Closeout"; #Change title
-$i=1; Get-ChildItem "$env:USERPROFILE\Downloads\*.png" | Sort-Object CreationTime | ForEach-Object { Rename-Item $_ ("$module.$i - $title.png"); $i++ }
